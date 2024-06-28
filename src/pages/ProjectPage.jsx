@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-// required component from 'react-router-dom' for linking pages and getting  current param value from URL
+// required component from 'react-router-dom' for LINKING pages
 import { useParams, Link } from 'react-router-dom';
 import Card from '../components/UI/Card/Card';
 
