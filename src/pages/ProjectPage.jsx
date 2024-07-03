@@ -63,7 +63,7 @@ export default function ProjectPage() {
   return (
     <>
       <div className="container">
-        <h1>Projects</h1>
+      <br /><h1>Projects</h1><br />
         <div className="row">
           {projectsArray.map((project, index) => (
             <div className="col-md-4 col-sm-12 mb-4" key={index}>
