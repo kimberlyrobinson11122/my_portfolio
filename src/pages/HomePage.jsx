@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-// Required component from 'react-router-dom' for LINKING between pages
+// Bringing in the required component from 'react-router-dom' for linking between pages
 import { Link } from 'react-router-dom';
 import Profile from '../components/UI/ProjectSections/ProfileTeaser';
 import ListItem from '../components/UI/ListItem';
