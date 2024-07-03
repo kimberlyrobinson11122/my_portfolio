@@ -11,7 +11,13 @@ function App() {
       <Outlet />
       <footer className="profile-footer">
         {/* Link - HomePage (instead of the href) */}
-        <Link to="/">Let's go back</Link>
+        <Link to="/">Let's go back</Link> 
+        <div />
+        <div className="social-links">
+          <Link to="https://www.linkedin.com/in/kimberly-robinson-linked/">LinkedIn</Link>
+          <Link to="https://github.com/kimberlyrobinson11122">GitHub</Link>
+          {/* Add a third placeholder link here */}
+        </div>
       </footer>
     </>
   );

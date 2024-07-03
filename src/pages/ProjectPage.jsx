@@ -7,30 +7,51 @@ export default function ProjectPage() {
   const projectsArray = [
     {
       img:"src/assets/images/cover_for_my_portfolio.jpg", 
-      title:"First Portfolio",
+      title:"My First Portfolio",
       description:"Description",
       repoLink:"https://github.com/kimberlyrobinson11122/Kimberly-Robinson-Portfolio", 
       deployedLink:"https://kimberlyrobinson11122.github.io/Kimberly-Robinson-Portfolio/#about",  
       languages:"HTML & CSS", 
     },
+
     {
-      img:"images/project", 
-      title:"Project",
-      description:"Description",
-      repoLink:"RepoLink", 
-      deployedLink:"deployedLink",  
+      img:"src/assets/images/work_day_planner2.jpg", 
+      title:"Work Day Planner",
+      description:"Work Day Planner",
+      repoLink:"https://github.com/kimberlyrobinson11122/simple_work_day_planner", 
+      deployedLink:"https://kimberlyrobinson11122.github.io/simple_work_day_planner/",  
       languages:"languages", 
     },
+
     {
-      img:"images/project", 
-      title:"Project",
-      description:"Description",
-      repoLink:"RepoLink", 
-      deployedLink:"deployedLink",  
+      img:"src/assets/images/code_quiz.png", 
+      title:"Multiple Choice Quiz",
+      description:"Quiz (Multiple Choice)",
+      repoLink:"https://github.com/kimberlyrobinson11122/multiple_choice_quiz", 
+      deployedLink:"https://kimberlyrobinson11122.github.io/multiple_choice_quiz/",  
       languages:"languages", 
     },
+
     {
-      img:"src/assets/images/Groove_Guide_Database.jpg", 
+      img:"src/assets/images/Horiseon.jpg", 
+      title:"Horiseon Website",
+      description:"Horiseon Website",
+      repoLink:"https://github.com/kimberlyrobinson11122/Horiseon-Homepage-Accessibility-Update", 
+      deployedLink:"https://kimberlyrobinson11122.github.io/Horiseon-Homepage-Accessibility-Update/",  
+      languages:"languages", 
+    },
+
+    {
+      img:"src/assets/images/weather_app.jpg", 
+      title:"Weather App",
+      description:"Weather App (Current & Five Day)",
+      repoLink:"https://github.com/kimberlyrobinson11122/weather_for_you", 
+      deployedLink:"https://kimberlyrobinson11122.github.io/weather_for_you/",  
+      languages:"languages", 
+    },
+
+    {
+      img:"src/assets/images/groove_guide.png", 
       title:"Groove Guide",
       description:"Description",
       repoLink:"https://github.com/cguntur/groove_guide__database", 

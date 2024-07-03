@@ -40,6 +40,7 @@ const router = createBrowserRouter([
         path: 'resume',
         element: <ResumePage />,
       },
+      
       {
         path: 'contact',
         element: <ContactPage />,
