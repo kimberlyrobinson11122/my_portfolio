@@ -6,7 +6,7 @@ import Card from '../components/UI/Card/Card';
 export default function ProjectPage() {
   const projectsArray = [
     {
-      img:"images/project", 
+      img:"src/assets/images/cover_for_my_portfolio.jpg", 
       title:"First Portfolio",
       description:"Description",
       repoLink:"https://github.com/kimberlyrobinson11122/Kimberly-Robinson-Portfolio", 
@@ -30,15 +30,13 @@ export default function ProjectPage() {
       languages:"languages", 
     },
     {
-      img:"images/project", 
-      title:"Project",
+      img:"src/assets/images/Groove_Guide_Database.jpg", 
+      title:"Groove Guide",
       description:"Description",
-      repoLink:"RepoLink", 
-      deployedLink:"deployedLink",  
+      repoLink:"https://github.com/cguntur/groove_guide__database", 
+      deployedLink:"https://groove-guide-database-1-aac602f0f549.herokuapp.com/",  
       languages:"languages", 
     },
-
-
   ]
 
   return (
