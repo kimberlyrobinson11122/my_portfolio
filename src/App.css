@@ -41,3 +41,21 @@
   color: #888;
 }
 
+.activeState {
+  font-weight: bold;
+  color:  rgb(187, 143, 206);
+}
+
+.navbar ul a.active {
+  color: rgb(187, 143, 206);
+}
+
+.profile-footer {
+  margin-top: 20px; /* Adjust margin top as needed */
+  margin-bottom: 20px; /* Add margin bottom to create space */
+}
+
+.social-links {
+  display: flex;
+  gap: 10px; /* Adjust gap between social links */
+}
