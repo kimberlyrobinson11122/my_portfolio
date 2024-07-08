@@ -1,7 +1,17 @@
 import React from 'react';
-import { Container, Button } from 'react-bootstrap';
+import { Container, Button, Modal } from 'react-bootstrap';
 
 export default function ResumePage() {
+  const [showModal, setShowModal] = React.useState(false);
+
+  const handleDownload = () => {
+    setShowModal(true);
+  };
+
+  const handleClose = () => {
+    setShowModal(false);
+  };
+
   return (
     <Container className="pt-4">
       <h1>Resume</h1> <br/>
@@ -13,6 +23,7 @@ export default function ResumePage() {
 
       <div>
         <h3>Office Manager</h3>
+  
         <p>
           <strong>2/2019 - 1/2024</strong> <br />
           Milliman, Inc. - Seattle, WA <br />
@@ -62,10 +73,22 @@ export default function ResumePage() {
       </div>
 
       <div className="mt-4">
-        <Button variant="primary">
-          <a href="/Resume.pdf" download>Download Resume</a>
+        <Button variant="primary" onClick={handleDownload}>
+          Download Resume
         </Button>
       </div>
+
+      <Modal show={showModal} onHide={handleClose}>
+        <Modal.Header closeButton>
+          <Modal.Title>Download Resume</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <p>Click the button below to download your resume:</p>
+          <a href="public/Resume.pdf" download>
+            <Button variant="primary">Download Resume</Button>
+          </a>
+        </Modal.Body>
+      </Modal>
     </Container>
   );
 }
