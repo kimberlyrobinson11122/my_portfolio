@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Button, Modal } from 'react-bootstrap';
+import resume from '../../public/Resume.pdf'; // important file that needs to bring along
 
 export default function ResumePage() {
   const [showModal, setShowModal] = React.useState(false);
@@ -13,7 +14,7 @@ export default function ResumePage() {
   };
 
   return (
-    <Container className="pt-4">
+    <Container className="pt-4" style={{ marginBottom:100 }}>
       <h1>Resume</h1> <br/>
       
       <h2>Summary</h2>  
@@ -84,7 +85,7 @@ export default function ResumePage() {
         </Modal.Header>
         <Modal.Body>
           <p>Click the button below to download your resume:</p>
-          <a href="/public/Resume.pdf" download>
+          <a href={resume} target="_blank">
             <Button variant="primary">Download Resume</Button>
           </a>
         </Modal.Body>
