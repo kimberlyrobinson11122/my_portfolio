@@ -1,19 +1,15 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { Container, Button } from 'react-bootstrap';
-
 
 export default function ResumePage() {
   return (
     <Container className="pt-4">
-      <h1>Kimberly Robinson's Resume</h1> <br/>
+      <h1>Resume</h1> <br/>
       
       <h2>Summary</h2>  
       <p>
         Highly adaptable and technology-proficient professional with over a decade of adeptness in project management, specializing in coordinating both internal and external client projects and deployments. Developing and nurturing strong partnerships. Thrives within dynamic environments, consistently delivering timely executions and quality results. Recognized for efficiently managing diverse and complex projects while upholding stringent confidentiality standards and exhibiting meticulous attention to detail. Known for innovative problem-solving skills, adept at finding imaginative and elegant solutions to challenges across various project domains.
       </p> <br/>
-
-      {/* <h2>placeholder</h2> */}
 
       <div>
         <h3>Office Manager</h3>
@@ -66,14 +62,10 @@ export default function ResumePage() {
       </div>
 
       <div className="mt-4">
-      <Button>
-        <a href="/Resume.pdf" download>Download Resume</a>
-      </Button>
+        <Button variant="primary">
+          <a href="/Resume.pdf" download>Download Resume</a>
+        </Button>
       </div>
     </Container>
   );
 }
-
-
-
-
