@@ -1,5 +1,5 @@
-import ReactDOM from 'react-dom/client';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createRoot } from 'react-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 // bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -13,39 +13,17 @@ import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import ResumePage from './pages/ResumePage';
 
-
-// Create a BrowserRouter and pass the routes array to it
-const router = createBrowserRouter([
-  {
-    path: '/',
-    element: <App />,
-    errorElement: <ErrorPage />,
-    children: [
-      {
-        index: true,
-        element: <HomePage />,
-      },
-      {
-        path: 'projects',
-        element: <ProjectPage />,
-      },
-      {
-        path: 'about',
-        element: <AboutPage />,
-      },
-      {
-        path: 'resume',
-        element: <ResumePage />,
-      },
-      {
-        path: 'contact',
-        element: <ContactPage />,
-      },
-    ],
-  },
-]);
-
-// RouterProvider component
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <RouterProvider router={router} />
+createRoot(document.getElementById('root')).render(
+  <Router>
+    <Routes>
+      <Route path="/" element={<App />}>
+        <Route index element={<HomePage />} />
+        <Route path="projects" element={<ProjectPage />} />
+        <Route path="about" element={<AboutPage />} />
+        <Route path="resume" element={<ResumePage />} />
+        <Route path="contact" element={<ContactPage />} />
+        <Route path="*" element={<ErrorPage />} />
+      </Route>
+    </Routes>
+  </Router>
 );
