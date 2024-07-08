@@ -84,7 +84,7 @@ export default function ResumePage() {
         </Modal.Header>
         <Modal.Body>
           <p>Click the button below to download your resume:</p>
-          <a href="public/Resume.pdf" download>
+          <a href="/public/Resume.pdf" download>
             <Button variant="primary">Download Resume</Button>
           </a>
         </Modal.Body>
