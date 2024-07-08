@@ -1,12 +1,12 @@
-// Bringing in the required import from 'react-router-dom'
+import React from 'react';
 import { Outlet, Link } from 'react-router-dom';
 import Nav from './components/Nav';
+import Header from './components/Header';
 
 function App() {
-  // The Outlet component will conditionally swap between the different pages according to the URL
   return (
-    <>
-    
+    <div>
+      <Header />
       <Nav />
       <Outlet />
       <footer className="profile-footer">
@@ -14,12 +14,12 @@ function App() {
         <Link to="/">Let's go back</Link> 
         <div />
         <div className="social-links">
-          <Link to="https://www.linkedin.com/in/kimberly-robinson-linked/">LinkedIn</Link>
-          <Link to="https://github.com/kimberlyrobinson11122">GitHub</Link>
-          {/* Add a third placeholder link here */}
+          <a href="https://www.linkedin.com/in/kimberly-robinson-linked/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://github.com/kimberlyrobinson11122" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://www.instagram.com/deenblackwell2024/" target="_blank" rel="noopener noreferrer">Instagram</a>
         </div>
       </footer>
-    </>
+    </div>
   );
 }
 
