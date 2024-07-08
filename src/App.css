@@ -59,3 +59,7 @@
   display: flex;
   gap: 10px; /* Adjust gap between social links */
 }
+
+.purple-text {
+  color: purple;
+}

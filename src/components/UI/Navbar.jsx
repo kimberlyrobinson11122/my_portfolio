@@ -12,9 +12,9 @@ export default function Navbar({ links }) {
                 <NavLink
                   to={link.to}
                   className={({ isActive }) =>
-                    isActive ? "nav-link text-light active" : "nav-link text-light"
+                    isActive ? "nav-link text-bold active purple-text" : "nav-link text-light"
                   }
-                  exact
+                  exact="true"
                 >
                   {link.label}
                 </NavLink>
