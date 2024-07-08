@@ -1,10 +1,16 @@
 import React from 'react';
 import Card from '../components/UI/Card/Card';
+import coverForMyPortfolio from '../assets/images/cover-portfolio.jpg';
+import workDayPlannerImage from '../assets/images/planner.jpg';
+import codeQuizImage from '../assets/images/code-quiz.png';
+import horiseonImage from '../assets/images/horiseon.jpg';
+import weatherAppImage from '../assets/images/weather-app.jpg';
+import grooveGuideImage from '../assets/images/groove-guide.png';
 
 export default function ProjectPage() {
   const projectsArray = [
     {
-      img: "assets/images/cover_for_my_portfolio.jpg",
+      img: coverForMyPortfolio,
       title: "My First Portfolio",
       description: "Description",
       repoLink: "https://github.com/kimberlyrobinson11122/Kimberly-Robinson-Portfolio",
@@ -12,7 +18,7 @@ export default function ProjectPage() {
       languages: "HTML & CSS",
     },
     {
-      img: "assets/images/work_day_planner2.jpg",
+      img: workDayPlannerImage,
       title: "Work Day Planner",
       description: "Work Day Planner",
       repoLink: "https://github.com/kimberlyrobinson11122/simple_work_day_planner",
@@ -20,7 +26,7 @@ export default function ProjectPage() {
       languages: "languages",
     },
     {
-      img: "assets/images/code_quiz.png",
+      img: codeQuizImage,
       title: "Multiple Choice Quiz",
       description: "Quiz (Multiple Choice)",
       repoLink: "https://github.com/kimberlyrobinson11122/multiple_choice_quiz",
@@ -28,7 +34,7 @@ export default function ProjectPage() {
       languages: "languages",
     },
     {
-      img: "assets/images/Horiseon.jpg",
+      img: horiseonImage,
       title: "Horiseon Website",
       description: "Horiseon Website",
       repoLink: "https://github.com/kimberlyrobinson11122/Horiseon-Homepage-Accessibility-Update",
@@ -36,7 +42,7 @@ export default function ProjectPage() {
       languages: "languages",
     },
     {
-      img: "assets/images/weather_app.jpg",
+      img: weatherAppImage,
       title: "Weather App",
       description: "Weather App (Current & Five Day)",
       repoLink: "https://github.com/kimberlyrobinson11122/weather_for_you",
@@ -44,7 +50,7 @@ export default function ProjectPage() {
       languages: "languages",
     },
     {
-      img: "assets/images/groove_guide.png",
+      img: grooveGuideImage,
       title: "Groove Guide",
       description: "Description",
       repoLink: "https://github.com/cguntur/groove_guide__database",
@@ -63,7 +69,7 @@ export default function ProjectPage() {
           {projectsArray.map((project, index) => (
             <div className="col-md-4 col-sm-12 mb-4" key={index}>
               <Card
-                img={require(`../${project.img}`)}
+                img={project.img}
                 title={project.title}
                 description={project.description}
                 repoLink={project.repoLink}
