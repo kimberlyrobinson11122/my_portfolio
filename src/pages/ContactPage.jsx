@@ -63,7 +63,7 @@ const ContactPage = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className="p-3" onSubmit={handleSubmit}>
       <div className="mb-3">
         <label htmlFor="name" className="form-label">
           Name
