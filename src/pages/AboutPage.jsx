@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import me from '../assets/images/me.jpg';
 
 export default function AboutPage() {
   return (
@@ -14,7 +15,7 @@ export default function AboutPage() {
       
       <div className="text-center">
         <img 
-          src="src/assets/images/girl_business.jpg" 
+          src={me} 
           alt="Portfolio Cover" 
           className="img-container"
           style={{ maxWidth: '60%', height: 'auto' }} 
