@@ -4,7 +4,7 @@ import Nav from './Nav';
 const Header = () => {
   return (
     <header>
-      <h1 className="text-left">Kimberly Robinson</h1>
+      <h2 className="justify-content-start">Kimberly Robinson</h2>
     </header>
   );
 };
