@@ -1,5 +1,5 @@
 import React from 'react';
-import CustomCard from '../components/UI/Card/customCard.jsx';
+import CustomCard from '../components/UI/Card/customCard';
 import coverForMyPortfolio from '../assets/images/cover-img.jpg';
 import workDayPlannerImage from '../assets/images/planner.jpg';
 import codeQuizImage from '../assets/images/code-quiz.png';
