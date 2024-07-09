@@ -1,6 +1,6 @@
 import React from 'react';
-import Card from '../components/UI/Card/Card';
-import coverForMyPortfolio from '../assets/images/cover-portfolio.jpg';
+import CustomCard from '../components/UI/Card/customCard.jsx';
+import coverForMyPortfolio from '../assets/images/cover-img.jpg';
 import workDayPlannerImage from '../assets/images/planner.jpg';
 import codeQuizImage from '../assets/images/code-quiz.png';
 import horiseonImage from '../assets/images/horiseon.jpg';
@@ -68,7 +68,7 @@ export default function ProjectPage() {
         <div className="row">
           {projectsArray.map((project, index) => (
             <div className="col-md-4 col-sm-12 mb-4" key={index}>
-              <Card
+              <CustomCard
                 img={project.img}
                 title={project.title}
                 description={project.description}
