@@ -26,7 +26,7 @@ export default function ResumePage() {
         <h3>Junior Web Developer</h3>
         <p>
           <strong>5/2014 - 12/2014</strong> <br />
-          Other New <Company></Company> - Redmond, WA <br />
+          Other New Company - Redmond, WA <br />
           - Assisted in the development of web applications, adhering to best practices and coding standards. <br />
           - Collaborated with senior developers to troubleshoot and resolve bugs, ensuring smooth project progression. <br />
           - Implemented features and enhancements using HTML, CSS, and JavaScript, contributing to project milestones. <br />
