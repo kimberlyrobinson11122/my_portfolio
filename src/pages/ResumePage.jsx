@@ -23,7 +23,7 @@ export default function ResumePage() {
       </p> <br/>
 
       <div>
-        <h3>Junior Web Developer</h3>
+        <h3>Junior Web Developer Intern</h3>
         <p>
           <strong>5/2014 - 12/2014</strong> <br />
           Other New Company - Redmond, WA <br />
@@ -35,7 +35,7 @@ export default function ResumePage() {
       </div>
 
       <div>
-        <h3>Full-Stack Developer Intern</h3>
+        <h3>Full-Stack Developer Intern/Training </h3>
         <p>
           <strong>3/2016 - 8/2016</strong> <br />
           New Company Inc. - Seattle, WA <br />

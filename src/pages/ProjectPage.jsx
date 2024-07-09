@@ -15,7 +15,7 @@ export default function ProjectPage() {
       description: "Description",
       repoLink: "https://github.com/kimberlyrobinson11122/Kimberly-Robinson-Portfolio",
       deployedLink: "https://kimberlyrobinson11122.github.io/Kimberly-Robinson-Portfolio/#about",
-      languages: "HTML & CSS",
+      languages: "HTML, CSS, GitHub",
     },
     {
       img: workDayPlannerImage,
@@ -23,7 +23,7 @@ export default function ProjectPage() {
       description: "Work Day Planner",
       repoLink: "https://github.com/kimberlyrobinson11122/simple_work_day_planner",
       deployedLink: "https://kimberlyrobinson11122.github.io/simple_work_day_planner/",
-      languages: "languages",
+      languages: "HTML, CSS powered by jQuery, Third Party APIs, and jQuery",
     },
     {
       img: codeQuizImage,
@@ -31,7 +31,7 @@ export default function ProjectPage() {
       description: "Quiz (Multiple Choice)",
       repoLink: "https://github.com/kimberlyrobinson11122/multiple_choice_quiz",
       deployedLink: "https://kimberlyrobinson11122.github.io/multiple_choice_quiz/",
-      languages: "languages",
+      languages: "HTML, CSS powered by JavaScript, Web APIs, and JavaScript",
     },
     {
       img: horiseonImage,
@@ -39,7 +39,7 @@ export default function ProjectPage() {
       description: "Horiseon Website",
       repoLink: "https://github.com/kimberlyrobinson11122/Horiseon-Homepage-Accessibility-Update",
       deployedLink: "https://kimberlyrobinson11122.github.io/Horiseon-Homepage-Accessibility-Update/",
-      languages: "languages",
+      languages: "CSS",
     },
     {
       img: weatherAppImage,
@@ -47,7 +47,7 @@ export default function ProjectPage() {
       description: "Weather App (Current & Five Day)",
       repoLink: "https://github.com/kimberlyrobinson11122/weather_for_you",
       deployedLink: "https://kimberlyrobinson11122.github.io/weather_for_you/",
-      languages: "languages",
+      languages: "Server-side APIs, HTML, CSS",
     },
     {
       img: grooveGuideImage,
@@ -55,7 +55,7 @@ export default function ProjectPage() {
       description: "Description",
       repoLink: "https://github.com/cguntur/groove_guide__database",
       deployedLink: "https://groove-guide-database-1-aac602f0f549.herokuapp.com/",
-      languages: "languages",
+      languages: "JavaScript, CSS, HTML, other tools MySQL and Sequelize ORM for the databases",
     },
   ];
 
