@@ -6,6 +6,7 @@ import codeQuizImage from '../assets/images/code-quiz.png';
 import horiseonImage from '../assets/images/horiseon.jpg';
 import weatherAppImage from '../assets/images/weather-app.jpg';
 import grooveGuideImage from '../assets/images/groove-guide.png';
+import getStubsImage from '../assets/images/get-stubs.png'; 
 
 export default function ProjectPage() {
   const projectsArray = [
@@ -56,6 +57,14 @@ export default function ProjectPage() {
       repoLink: "https://github.com/cguntur/groove_guide__database",
       deployedLink: "https://groove-guide-database-1-aac602f0f549.herokuapp.com/",
       languages: "JavaScript, CSS, HTML, other tools MySQL and Sequelize ORM for the databases",
+    },
+    {
+      img: getStubsImage,
+      title: "Get Stubs",
+      description: "Get Stubs is an online community hub for local events of all kinds, and for everyone under the sun. Everything from pop-up musical performances to tie-dye meet-ups in the park.",
+      repoLink: "https://github.com/kimberlyrobinson11122/Get-Stubs",
+      deployedLink: "https://get-stubs-32478408ec54.herokuapp.com/",
+      languages: "REACT, Node.js, Express.js, GraphQL, MongoDB, Mongoose ODM, Heroku",
     },
   ];
 
